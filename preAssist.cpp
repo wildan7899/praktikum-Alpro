@@ -7,13 +7,7 @@ int main () {
     int uangPengguna;
     int diskon = 4;
 
-    int totalBeras = hargaBeras * jumlahBeras;
-    int totalMinyak = hargaMinyak * jumlahMinyak;
-    int totalGula = hargaGula * jumlahGula;
-    int totalBelanja = totalBeras + totalMinyak + totalGula;
-    int diskonPengguna = totalBelanja / diskon;
-    int totalHarusDibayar = totalBelanja - diskonPengguna;
-    int uangKembalian = uangPengguna - totalHarusDibayar;
+   
 
     cout << "Masukkan uang yang anda miliki: ";
     cin >> uangPengguna;
@@ -24,7 +18,15 @@ int main () {
     cout << "Masukkan jumlah gula yang dibeli: ";
     cin >> jumlahGula;
 
+ int totalBeras = hargaBeras * jumlahBeras;
+    int totalMinyak = hargaMinyak * jumlahMinyak;
+    int totalGula = hargaGula * jumlahGula;
+    int totalBelanja = totalBeras + totalMinyak + totalGula;
+    int diskonPengguna = totalBelanja / diskon;
+    int totalHarusDibayar = totalBelanja - diskonPengguna;
+    int uangKembalian = uangPengguna - totalHarusDibayar;
 
+    
     cout << "=============================" << endl;
     cout << "Total beras: Rp" << totalBeras << endl;
     cout << "Total minyak: Rp" << totalMinyak << endl;
