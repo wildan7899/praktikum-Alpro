@@ -18,7 +18,7 @@ int main () {
     cout << "Masukkan jumlah gula yang dibeli: ";
     cin >> jumlahGula;
 
- int totalBeras = hargaBeras * jumlahBeras;
+    int totalBeras = hargaBeras * jumlahBeras;
     int totalMinyak = hargaMinyak * jumlahMinyak;
     int totalGula = hargaGula * jumlahGula;
     int totalBelanja = totalBeras + totalMinyak + totalGula;
