@@ -2,7 +2,7 @@
 using namespace std;
 
 int main () {
-
+//deklarasi
     int hargaBeras = 10000, jumlahBeras, jumlahMinyak, hargaMinyak = 10000, jumlahGula, hargaGula = 10000;
     int uangPengguna;
     int diskon = 4;
