@@ -9,7 +9,7 @@ int main () {
 	double pajak = 0.25;
 	int uangPembeli;
 	
-	
+	//
 	//cout << totalBelanja;
 	
 	cout << "================================" << endl;
